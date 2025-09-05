@@ -1,0 +1,37 @@
+1) ¿Cuál es el punto más débil de PGP?
+
+Puede llegar a ser dificil de entender y utilizar, ademas, GPG cifra mensajes, pero no los anonimiza, lo que permite 
+rastrear al remitente y al destinatario.
+
+2) ¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+
+Cuando se necesita velocidad y eficiencia, por el ejemplo al crifrar un volumen enorme de datos 
+
+3) ¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+
+3.1) Analisis
+
+Se levantan requerimientos tanto funcionales como no funcionales y se identifican posibles riesgos
+
+3.2) Diseño
+
+Se decide una arquitectura a utilizar y un metodo de trabajo, se define como sera implementado el software
+
+3.3) Desarrollo 
+
+Aqui es donde se produce la codificacion propiamente dicha, lo que la convierte en una de las fases más vulnerables 
+a la introducción de riesgos de seguridad. 
+
+3.4) Testing
+
+En la fase de pruebas, los equipos validan la funcionalidad y buscan vulnerabilidades. 
+
+3.5) Despliegue
+
+En esta fase, la app se pone en produccion
+
+3.6) Mantenimiento
+
+El mantenimiento continuo aborda nuevas vulnerabilidades, arregla bugs y garantiza que el sistema se 
+mantenga seguro frente a amenazas en constante evolucion.
+
